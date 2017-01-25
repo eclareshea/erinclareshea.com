@@ -131,13 +131,13 @@ h3 + ul {
 
 .container-fluid > .row.header .navbar .navbar-brand .thin-light {
   font-weight: 100;
-  padding: 0px 18px 0px 8px;
+  padding: 0px 16px 0px 0px;
   color: #D7D8D9;
 }
 
 @media (max-width: 767px) {
   .container-fluid > .row.header .navbar .navbar-brand .thin-light {
-    padding: 0px 6px 0px 0px;
+    padding: 0px 8px 0px 0px;
     margin-left: -8px;
   }
 }
