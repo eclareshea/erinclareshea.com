@@ -183,6 +183,17 @@ h3 + ul {
   }
 }
 
+.nav>li>a {
+  display: inline-block;
+}
+
+.navbar-collapse {
+  margin-top: 16px;
+  border-top: 1px solid #999;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 .container-fluid > .row.header .navbar .icon-bar {
   background: #222222;
 }
