@@ -367,7 +367,7 @@ h3 + ul {
 }
 /** Sections **/
 .hero:before {
-  background-image: url(../assets/Ampersand1.png);
+  background-image: url(../assets/Ampersand1.jpg);
   background-position: center center;
   background-size: cover;
   position: absolute;
