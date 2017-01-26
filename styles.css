@@ -187,11 +187,13 @@ h3 + ul {
   display: inline-block;
 }
 
-.navbar-collapse {
-  margin-top: 16px;
-  border-top: 1px solid #999;
-  box-shadow: none;
-  -webkit-box-shadow: none;
+@media (max-width: 767px) {
+  .navbar-collapse {
+    margin-top: 16px;
+    border-top: 1px solid #222;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
 }
 
 .container-fluid > .row.header .navbar .icon-bar {
@@ -447,6 +449,7 @@ h3 + ul {
   .section.hero h1 {
     font-size: 32px;
     margin-top: -25px;
+    font-weight: 300;
   }
 }
 .section.hero h2 {
