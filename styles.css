@@ -437,7 +437,7 @@ h3 + ul {
   }
 }
 .section.hero h1 {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
   font-size: 80px;
   font-family: proxima-nova, sans-serif;
   font-style: normal;
@@ -454,7 +454,7 @@ h3 + ul {
   }
 }
 .section.hero h2 {
-  margin-bottom: 32px;
+  margin-bottom: 65px;
   padding: 0;
   border: none;
   text-transform: none;
