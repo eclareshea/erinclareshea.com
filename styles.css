@@ -141,12 +141,12 @@ h3 + ul {
 
 @media (max-width: 767px) {
   .container-fluid > .row.header .navbar .navbar-brand .thin-light {
-    padding: 0px 8px 0px 0px;
+    padding: 0px 8px 0px 6px;
     margin-left: -8px;
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 320px) {
   .container-fluid > .row.header .navbar .navbar-brand .thin-light, .thin {
     display: none;
   }
