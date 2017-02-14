@@ -142,6 +142,12 @@ h3 + ul {
   }
 }
 
+@media (max-width: 667px) {
+  .container-fluid > .row.header .navbar .navbar-brand .thin-light {
+    display: none;
+  }
+}
+
 .container-fluid > .row.header .navbar .navbar-brand .thin {
   font-weight: 100;
   text-transform: none;
