@@ -610,8 +610,6 @@ footer.row .social a:hover {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  .img-responsive {
-    margin-bottom: 40px;
-  }
+.img-responsive {
+  margin-bottom: 40px;
 }
