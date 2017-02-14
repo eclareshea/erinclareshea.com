@@ -525,16 +525,14 @@ a.project-item img:hover {
 .project-title {
   color: #FFFFFF;
   position: absolute;
-  top: 20%;
+  top: 10%;
+  left: 12%;
   text-decoration: none;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
   line-height: 28px;
   text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  left: 0;
 }
 
 
