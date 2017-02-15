@@ -691,3 +691,13 @@ footer.row .social a:hover {
 .img-responsive {
   margin-bottom: 30px;
 }
+
+.collage {
+  display: block;
+}
+
+@media (max-width: 768px){
+  .collage {
+    display: none;
+  }
+}
