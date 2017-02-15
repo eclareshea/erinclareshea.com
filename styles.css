@@ -477,6 +477,7 @@ h3 + ul {
   .section.hero h1 {
     font-size: 32px;
     margin-top: -25px;
+    margin-bottom: 10px;
     font-weight: 300;
   }
 }
@@ -495,6 +496,14 @@ h3 + ul {
     margin-bottom: 18px;
     font-size: 18px;
     width: 250px;
+  }
+  .calls-to-action {
+    margin-top: 20px;
+  }
+
+  .btn {
+  padding: 14px 24px 12px;
+  font-size: 18px;
   }
 }
 .section.hero .calls-to-action .btn {
