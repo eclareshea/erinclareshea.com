@@ -1,7 +1,7 @@
 /** Type styles */
 body {
   margin: 0;
-  background: #ffffff;
+  background: #FFF;
   font: 16px "Proxima Nova", sans-serif;
   font-weight: 400;
   color: #222222;
@@ -337,12 +337,12 @@ h3 + ul {
   padding: 7px 12px 6px;
   background: none;
   border-radius: 3px;
-  border: solid 2px #222222;
+  border: solid 2px #000;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #222222;
+  color: #000;
 }
 .btn:hover,
 .btn:active {
@@ -361,7 +361,7 @@ h3 + ul {
   outline: none;
 }
 .btn-primary {
-  background: #222222;
+  background: #000;
   color: #FFFFFF;
 }
 .btn-primary:hover,
@@ -393,6 +393,39 @@ h3 + ul {
 .modal-content label {
   font-weight: 400;
 }
+
+
+.banner {
+  background-color: #13A19B;
+  color: #FFF;
+}
+.banner p {
+  padding: 10px 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.banner .heart {
+  margin: 0px 8px;
+}
+
+.banner .btn {
+  margin-left: 20px;
+}
+
+.banner .btn:hover {
+  background-color: #090543;
+  border: 2px solid #090543;
+  opacity: .9;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+}
+
+
 /** Mixins **/
 .cover-section {
   background-position: center center;
@@ -405,6 +438,7 @@ h3 + ul {
   display: block;
   content: '';
 }
+
 /** Sections **/
 .hero:before {
   background-image: url(../assets/Ampersand1.jpg);
@@ -542,6 +576,7 @@ h3 + ul {
     width: 100%;
   }
 }
+
 
 /********************************* Work Projects *********************************/
 
