@@ -288,7 +288,7 @@ h3 + ul {
 }
 @media (max-width: 767px) {
   .container-fluid .section {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
   }
 
