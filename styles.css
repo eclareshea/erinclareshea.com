@@ -256,10 +256,12 @@ h3 + ul {
 
   .container-fluid > .row.header.inverse  .navbar .navbar-brand .thin-light {
     color: #FFFFFF;
+    opacity: 0.4;
   }
 
   .container-fluid > .row.header.inverse  .navbar .navbar-brand .thin {
     color: #FFFFFF;
+    opacity: 0.7;
   }
 
   .container-fluid > .row.header.inverse  .navbar a {
