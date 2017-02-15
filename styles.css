@@ -438,16 +438,20 @@ h3 + ul {
   .banner .text-center {
       padding: 0px 2px;
     }
-  .banner p.mobile .btn {
+  .banner p.mobile .btn,
+  .banner p.desktop .btn {
     background-color: #000;
     color: #fff;
     margin-top: 5px;
   }
 
-  .banner p.mobile .btn:active, .btn:hover {
+  .banner p.mobile .btn:active,
+  .banner p.mobile .btn:hover,
+  .banner p.desktop .btn:active,
+  .banner p.desktop .btn:hover  {
     background-color: #090543;
     border: 2px solid #090543;
-}
+  }
 }
 
 
