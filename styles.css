@@ -460,7 +460,7 @@ h3 + ul {
 }
 @media (max-width: 767px) {
   .section.hero {
-    padding: 140px 0;
+    padding: 130px 0;
   }
 }
 .section.hero h1 {
@@ -498,12 +498,17 @@ h3 + ul {
     width: 250px;
   }
   .calls-to-action {
-    margin-top: 20px;
+    margin-top: 60px;
   }
 
   .btn {
-  padding: 14px 24px 12px;
-  font-size: 18px;
+  padding: 10.5px 18px 9px;
+  font-size: 16px;
+  }
+
+  .btn:visited {
+    background: #FFF;
+    color: #FF0A9A;
   }
 }
 .section.hero .calls-to-action .btn {
